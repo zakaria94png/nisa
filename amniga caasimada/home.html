@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NISA - Warbixinta Dhacdooyinka</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url(nisa-1200x800-1-860x573-1.webp) no-repeat center center fixed;
+      background-size: cover;
+      color: white
+      background-color: #001f3f; /* Police blue */
+      margin: 0;
+      padding: 0;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 40px;
+      min-height: 100vh;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #00bfff;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 20px auto;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    label {
+      display: block;
+      margin: 15px 0 5px;
+      color: #ffffff;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+
+    input[type="submit"] {
+      background-color: #0074D9;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    iframe {
+      display: block;
+      margin: 30px auto;
+      border: none;
+      width: 90%;
+      height: 400px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>Hey’adda Nabad Sugida Qaranka (NISA)</h1>
+    <h2>Foomka Diiwaangelinta iyo Warbixinta Dhacdooyinka</h2>
+
+    <!-- Isdiiwaangelin -->
+    <form>
+      <label for="name">Magaca:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email-ka:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password-ka:</label>
+      <input type="password" id="password" name="password" required>
+
+      <hr>
+
+      <!-- Warbixinta Dhacdada -->
+      <label for="type">Nooca Dhacdada:</label>
+      <select id="type" name="type" required>
+        <option value="">-- Dooro Nooca Dhacdada --</option>
+        <option>Dil</option>
+        <option> xog waxyaabaha Qarxa ku saabsan</option>
+        <option>Afduub</option>
+        <option>dhaq-dhaqaaq amni daro</option>
+        <option>xog argagixiso</option>
+        <option>kuwo kale</option>
+      </select>
+
+      <label for="desc">Sharaxaada Dhacdada:</label>
+      <textarea id="desc" name="desc" rows="4" required></textarea>
+
+      <label for="date">Taariikhda Dhacdada:</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="time">Waqtiga Dhacdada:</label>
+      <input type="time" id="time" name="time" required>
+
+      <input type="submit" value="Gudbi Warbixinta">
+    </form>
+
+    <!-- Google Map Embed -->
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15924.433567430294!2d45.3181615!3d2.0469347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3d58e51958b442b3%3A0xe0f480c6b47a39fb!2sMogadishu%2C%20Somalia!5e0!3m2!1sen!2so!4v1624019462693!5m2!1sen!2so" 
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</body>
+</html>
